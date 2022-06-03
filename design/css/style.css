@@ -1,0 +1,226 @@
+* h1,h6{
+				color:hsl(233, 26%, 24%);
+				text-align:center;
+}
+* p{
+				color:hsl(233, 8%, 62%);
+				font-size:11px;
+				text-align:center;
+}
+#top{
+				font-family: 'Public Sans', sans-serif;
+				overflow:hidden;
+}
+#navbar{
+				position:fixed;
+				top:0;
+				width:100vw;
+}
+nav{
+				z-index:10;
+				background:white;
+				position:fixed;
+				top:0;
+}
+#dhee{
+				text-align:center;
+				margin-top:50px;
+				position:absolute;
+				background:white;
+				width:90%;
+				top:32px;
+				left:5%;
+				z-index:2;
+				border-radius:4px;
+				box-shadow:30px 30px 60px hsl(233, 26%, 24%);
+				padding:20px 0;
+}
+#dhee ul li a{
+				color: hsl(233, 26%, 24%);
+				font-weight:500;
+}
+header #phones{
+				position:absolute;
+				left:;
+				top:0;
+				z-index:0;
+}
+header img{
+				width:100%;
+}
+#nav-btn{
+				position:absolute;
+				right:2px;
+				top: 12px;
+}
+#nav-btn button{
+				width:120px;
+				padding:8px 0;
+				background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+				color:white;
+				font-size:10px;
+}
+#flex-content h1{
+				font-weight:300;
+				font-size:33.5px;
+}
+#bttn{
+			width:120px;
+				padding:8px 0;
+				background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+				color:white;
+				font-size:10px;	
+				display: block;
+				margin: auto;
+}
+#first-section{
+				background:hsl(220, 16%, 96%);
+				padding-top:70px;
+				text-align:center;
+}
+#child img{
+				display: block;
+				margin: auto;
+				padding:20px 0;
+}
+#child h6{
+				padding:10px 0;
+}
+#second-section{
+				background:hsl(0, 0%, 96%);
+}
+#second-section h6,p{
+				text-align:left !important;
+}
+#second-section #name{
+				font-size:10px;
+}
+#second-section img{
+				width:100%;
+}
+#sec2-child{
+				background:white;
+}
+#inner-child{
+				background:white;
+}
+#page-foot{
+				background:hsl(233, 26%, 24%);
+				height:auto;
+}
+#logo {
+  filter: brightness(0) invert(1);
+  display: block;
+  margin: auto;
+}
+#foot-img img{
+				padding:10px;
+}
+#flex-inner img{
+				margin:0 10px;
+}
+ul{
+				margin:0;
+}
+footer ul{
+				list-style:none;
+				text-align:center;
+				padding:30px 10px 30px 0;
+				margin:0;
+}
+footer ul li{
+				padding:10px 0;
+}
+footer ul li a{
+				text-decoration:none;
+				color:white;
+}
+@media(min-width:585px){
+				#dhee{
+				text-align:center;
+				margin-top:6px;
+				position:static;
+				background:initial;
+				width:initial;
+				z-index:2;
+				box-shadow:0 0 0 white;
+				padding:0;
+				display: flex;
+				justify-content:center;
+				flex-flow:row nowrap;
+				margin-right:130px;
+				}
+				header #phones{
+				width:80%;
+				position:absolute;
+				top:-16%;
+				right:-14%;
+				}
+				header #phones-bg{
+								width:100%;
+								height:400px;
+								position:relative;
+								bottom:80px;
+								z-index:-3;
+								left:19%;
+				}
+				#bg-pictures{
+				position:relative;
+				}
+				#flex-content{
+							position:relative;
+							left:6%;
+				}
+				#first-section{
+								padding:0 70px;
+				}
+				#sec2-child img{
+								height:50%;
+								width:90%;
+			 }
+				footer ul{
+								text-align:left;
+								padding:30px 0 0 0;
+								margin:0;
+				}
+				footer ul li{
+								padding:0 0;
+				}
+				footer ul li a{
+								text-decoration:none;
+								color:white;
+								font-size:12px;
+				}
+				#foot-img img{
+								width:50%;
+				}
+				#foot-img2 img{
+								width:27px;
+								padding:0 5px;
+				}
+}
+@media(min-width:900px){
+	   	* h1,h6{
+								text-align:left;
+   	 }
+				* p{
+								text-align:left;
+	   	}
+	   	#dhee{
+						  margin-right:0;
+		  }		
+	   #child img{
+								margin-left:0;
+								
+	   	}
+  		 #first-section h1{
+								font-size:24px;
+								text-align:left !important;
+		  	}				
+		  	#child-0 p{
+								text-align:left !important;
+				}		
+				#sec2-child img{
+								height:180px;
+				}
+}
